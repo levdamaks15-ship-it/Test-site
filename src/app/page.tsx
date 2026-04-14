@@ -6,8 +6,8 @@ import Footer from '@/components/layout/Footer';
 import { useTranslation } from '@/lib/i18n';
 import styles from './page.module.css';
 import Catalog from '@/components/common/Catalog';
-
 import SearchFilters from '@/components/common/SearchFilters';
+import properties from '@/data/properties.json';
 
 export default function Home() {
   const { t } = useTranslation();
